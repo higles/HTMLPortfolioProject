@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-width: 60em;
+    font-family: Tahoma, Verdana, sans-serif;
+    background: #bbccd9;
+}
+h3 {
+    font-size: 2.5em;
+    padding: 0.3em 0 0.1em 0;
+    background: #ddd;
+}
+p {
+    font-size: 0.9em;
+    padding: 0 0 1em 0;
+    border-bottom: 1px solid #eee;
+    background: #ddd;
+}
+span {
+    position: relative;
+    display: block;
+    line-height: 1.4em;
+}
+div {
+    position: relative;
+    display: block;
+    padding-bottom: 1em;
+    text-align: center;
+    color: #011424;
+    border-bottom: 1px solid #011424;
+    background: #bbccd9;
+}
+
+.header {
+    position: relative;
+    display: block;
+    background: #011424;
+    color: #ddd;
+    border-bottom: 2px solid #eee;
+}
+.header h1 {
+    position: relative;
+    display: block;
+    padding-top: 0.6em;
+    text-align: center;
+    font-size: 4em;
+}
+.header h2 {
+    position: relative;
+    display: block;
+    padding-top: 0.5em;
+    padding-bottom: 2em;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.projects ul {
+    position: relative;
+    display: block;
+    width: 60em;
+    height: 16em;
+    margin: auto;
+    margin-top: 1em;
+    column-count: 2;
+    list-style: none;
+}
+.projects ul li {
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 95%;
+    height: 7em;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 1px solid #011424;
+}
+.projects ul li a {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+.projects ul li a span {
+    position: relative;
+    display: block;
+    padding: 0.2em 0;
+    font-size: 1.5em;
+    color: #ddd;
+    background: rgba(1, 20, 36, 0.8);
+}
+#happypantz {
+    background: #000;
+}
+#polymorphic {
+    margin-top: 1em;
+    background: url(images/polymorphicGames.PNG);
+    background-size: cover;
+    background-position: 50% 30%;
+}
+#evolveTD {
+    background: url(images/evolveTD.PNG);
+    background-size: cover;
+    background-position: 30% 50%;
+}
+#vast {
+    margin-top: 1em;
+    background: url(images/vast.PNG);
+    background-size: cover;
+    background-position: center;
+}
+
+.skills ul {
+    position: relative;
+    display: block;
+    width: 26.1em;
+    margin: auto;
+    margin-top: 1em;
+    column-count: 3;
+    list-style: none;
+    font-size: 1.15em;
+    font-weight: bold;
+    font-family: courier;
+}
